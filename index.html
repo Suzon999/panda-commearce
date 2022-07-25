@@ -22,7 +22,7 @@
         header start 
         --------------------------- -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -37,13 +37,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bag">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                            <a class="nav-link " href="#form" tabindex="-1" aria-disabled="true">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -135,7 +135,7 @@
         ------------------------------ -->
     <main>
         <!-- catagorise  -->
-        <section>
+        <section id="shoes">
             <div class="container overflow-hidden my-5">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 p-2 ">
@@ -242,13 +242,119 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
-
-
+        <!-- backpack items start -->
+        <section class=" container" id="bag">
+            <h2 class=" display-2 my-5 fw-bold text-center">Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top  img-fluid " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Backpack-999</h5>
+                            <h3>$569</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded-3">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Nike s-555</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Nike s-999</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded-3">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Nike s-333</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Nike s-555</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-1">Nike s-999</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class=" ms-3 mb-4">
+                            <button class="btn btn-color px-lg-5 py-2 ">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe section  -->
+        <div style="height: 300px; "
+            class="container color-1 rounded-3 p-5 d-flex justify-content-center align-items-center my-5" id="form">
+            <div>
+                <h2>LET'S STAY IN TOUCH </h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- backpack items end -->
     </main>
+    <!-- footer  -->
+    <footer style="height: 100px; background-color: black; "
+        class=" text-center  d-flex align-items-center justify-content-center">
+        <p class=" text-white"> <small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
 
